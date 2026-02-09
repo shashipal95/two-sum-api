@@ -1,6 +1,7 @@
 pytest
 start htmlcov\index.html 
-uvicorn API:app --reload
+uvicorn app.main:app --reload
+
 
 
 
