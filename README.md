@@ -1,7 +1,12 @@
+```bash
 pytest
+```
+```bash
 start htmlcov\index.html 
+```
+```bash
 uvicorn app.main:app --reload
-
+```
 
 
 
